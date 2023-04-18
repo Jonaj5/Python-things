@@ -1,8 +1,8 @@
 import pygame
 from random import randint, choice
 
-WIDTH = 800
-HEIGHT = 600
+WIDTH = 1280
+HEIGHT = 720
 
 BLACK = pygame.Color("#000000")
 D_BLUE = pygame.Color("#0004dd")
@@ -43,7 +43,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Odraz")
 clock = pygame.time.Clock()
 
-balls = [Ball(), Ball(), Ball()]
+balls = [Ball(), Ball(), Ball(), Ball(), Ball(), Ball()]
 
 running = True
 while running:
