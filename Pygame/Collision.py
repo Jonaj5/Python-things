@@ -35,7 +35,7 @@ while run:
         if event.type == QUIT:
             run=False
         elif event.type== KEYUP and event.key == K_ESCAPE:
-            run==False
+            run=False
 
         point = pygame.mouse.get_pos()
         collide1 = rectangle1.collidepoint(point)
