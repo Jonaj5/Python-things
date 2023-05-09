@@ -1,7 +1,7 @@
 import pygame 
 from pygame.locals import *
 
-hero_surface = pygame.image.load("space_ship.png")
+hero_surface = pygame.image.load("Pygame/Space invaders/space_ship.png")
 hero_rect = hero_surface.get_rect()
 
 alien_surface = pygame.image.load("Pygame/Space invaders/space_invader.png")
