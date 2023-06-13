@@ -30,9 +30,9 @@ class Zamestnanec:
     
     @email.setter
     def email(self, text):
-        jmeno, prijm =text.split
+        jmeno, prijm = text.split
         self.jmeno = jmeno
-        self.prijm= prijm
+        self.prijm = prijm
     
     @classmethod
     def nastav_rust_platu(cls, rust):
